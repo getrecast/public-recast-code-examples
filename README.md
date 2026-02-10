@@ -2,7 +2,7 @@
 
 A public facing repository that houses code examples we use at Recast to help illustrate complex statistical concepts
 
-Here at Recast, we believe in making our work as transparent as possible. To that effect, we created this repository so that you could take the code that you see us running in our articles and practitioners guide and play around with it yourself! As we add new guides, we'll drop little descriptions in here so you can find what you're looking for:
+Here at Recast, we believe in making our work as transparent as possible. To that effect, we created this repository so that you could take the code that you see us running in our articles and practitioners guides and play around with it yourself! As we add new guides, we'll drop little descriptions in here so you can find what you're looking for:
 
 ### `multicollinearity_practitioners_guide`
 
