@@ -10,6 +10,6 @@ These files are meant to illustrate some of the challenges that marketing analys
 
 -   `multicollinearity_beta_to_0.R` - this file illustrates the response of a typical frequentist model to collinear channels and demonstrates the "beta to 0" problem that we encounter when using typical regressions.
 
--   `multicollinearity_intervention_fix.R` - this file demonstrates how flighting marketing spend, even over short period of time, can have incredibly powerful impacts on reducing multicollinearity in your models, even when using traditional regressions.
+-   `multicollinearity_intervention_fix.R` - this file demonstrates how flighting marketing spend, even over short periods of time, can have incredibly powerful impacts on reducing multicollinearity in your models, even when using traditional frequentist regressions.
 
--   `multicollinearity_freq_v_bayes.R` - this file provides an overview of the statistical benefits associated with utilizing bayesian methods when collinearity is present in channels and demonstrates the idea that uncertainty in estimates is often a feature rather than a bug.
+-   `multicollinearity_freq_v_bayes.R` - this file provides an overview of the statistical benefits associated with utilizing Bayesian methods when collinearity is present in channels and demonstrates the idea that uncertainty in estimates is often a feature rather than a bug.
