@@ -7,13 +7,14 @@ library(dplyr)
 library(lubridate)
 library(ggplot2)
 library(forecast)
+library(here)
 
 ##------------------------------------------------------------------------------
 ##  READ IN AND VISUALIZE THE DATA
 ##------------------------------------------------------------------------------
 
 #Creating a path for the marketing data
-data_path <- "~/public-recast-code-examples/counterfactuals_practitioners_guide/mock_dma_gym_data.csv"
+data_path <- here("counterfactuals_practitioners_guide", "mock_dma_gym_data.csv")
 
 #Reading in the data
 raw_data <- read.csv(data_path)
