@@ -8,9 +8,9 @@ Here at Recast, we believe in making our work as transparent as possible. To tha
 
 This files illustrate two of the standard approaches to generating counterfactuals, namely forecasting and propensity score matching. This code is meant to serve as a support to this article, which details common counterfactual generation approaches as well as their tradeoffs.
 
--   `counterfactual_forecasting.R` - this file provides a script for using a forecast to generate a counterfactual for a marketing intervention. We leverage basic ARIMA modeling approaches for time series to show this process from scratch. You may also consider using the `CausalImpact` package to complete similar work.
+-   `counterfactual_forecasting.R` - this file provides a script for using a forecast to generate a counterfactual for a marketing intervention. We leverage the `CausalImpact` package modeling approaches for time series to show this process from scratch.
 
--   `counterfactual_psm.R` - this file provides a script for generating propensity scores to identify matched markets to serve as counterfactuals for a marketing intervention. We leverage a k-nearest neighbors approach to consider multiple factors and consolidate the performance of the top 3 matches to serve as the counterfactual.
+-   `counterfactual_psm.R` - this file provides a script for generating propensity scores to identify matched markets to serve as counterfactuals for a marketing intervention. We leverage the `MatchIt` package approach to consider multiple factors and consolidate the performance of matched DMAs to serve as the counterfactual.
 
 ### `multicollinearity_practitioners_guide`
 
